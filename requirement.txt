@@ -1,0 +1,26 @@
+PROBLEM
+How many trucks do I need to operate most efficiently in a month?
+Berapa banyak truk yang saya perlukan untuk beroperasi yang paling efisien dalam 1 bulan?
+
+ASSUMPTIONS
+● 1 month = 30 days 1 bulan = 30 hari
+● Every day, deliveries are made using 1 truck without missing a single day Setiap hari pengantaran dilakukan menggunakan 1 truk tanpa ada 1 hari pun yang terlewat
+● Trucks need 3 days for 1 trip, from departure to return to the pool Truk membutuhkan 3 hari untuk perjalanan 1 trip, dari berangkat hingga kembali ke pool
+● The truck needs 1 day for repairs/maintenance before it can operate again Truk membutuhkan 1 hari untuk perbaikan sebelum dapat beroperasi kembali
+● Each truck is allowed to depart on odd/even dates according to the truck number. Setiap truk diperbolehkan berangkat pada tanggal ganjil/genap sesuai dengan nomor truk. Ex.: Truck 1 is only allowed to depart on dates 1,3,5, etc.; truck 2 on dates 2,4,6, etc.; truck 3 on dates 1,3,5, etc.; etc. Mis.: Truk 1 hanya boleh berangkat pada tanggal 1,3,5, dst; truk 2 tanggal 2,4,6,dst; truk 3 tanggal 1,3,5,dst; dst
+
+HINTS
+● For operational time (1 trip) and maintenance duration, define as a variable that can be changed to any integer number Untuk waktu operasional (1 trip) dan durasi perbaikan, dibuat dalam variabel yang dapat diubah menjadi angka (integer) berapa pun
+
+SOLUTION
+Write in the following programming languages: Javascript/Typescript
+Tulis dalam bahasa pemrograman berikut: Javascript/Typescript
+
+For operational time (1 trip) and maintenance duration, define as a variable that can be changed to any integer number
+Untuk waktu operasional (1 trip) dan durasi perbaikan, dibuat dalam variabel yang dapat diubah menjadi angka (integer) berapa pun
+Output the results in the following form:
+Keluarkan hasil dalam bentuk berikut:
+Truck 1: 1, 5, …
+Truck 2: 2, 6, …
+…etc
+TOTAL Trucks: XX
